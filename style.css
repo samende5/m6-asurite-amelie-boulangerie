@@ -58,15 +58,21 @@ nav, a {
     margin-right: auto;
     margin-bottom: 8px;
     margin-left: auto;
-    background-color: #e0e5de;
+    background-color: #fdfdfd;
     color: #141a1a;
     text-decoration: none;
     font-weight: bold;
 }
-nav a:hover {
+
+nav a[href="index.html"] {
     background-color: #F28095;
 }
-nav a[href="index.html"] {
+
+nav a[href="#"] {
+    background-color: #e0e5de;
+}
+
+nav a:hover {
     background-color: #F28095;
 }
 
